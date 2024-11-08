@@ -59,7 +59,7 @@ function addTitleLinkToUser() {
 
 // Function to add title link to the user's tagline
 function addTitleLinkToUserTagline() {
-    let username = "Uarekomodo9";
+    let username = "JavaChess";
     const userTaglines = document.querySelectorAll('div.user-tagline-component');
     
     userTaglines.forEach(userTagline => {
