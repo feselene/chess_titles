@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA484E0C2DB3C10C00301C94 /* Chesscom Title Editor Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BAED77A52DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */; };
+		BAED77802DB3B9A700DE860B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED777F2DB3B9A700DE860B /* AppDelegate.swift */; };
+		BAED77822DB3B9A700DE860B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77812DB3B9A700DE860B /* SceneDelegate.swift */; };
+		BAED77852DB3B9A700DE860B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAED77832DB3B9A700DE860B /* LaunchScreen.storyboard */; };
+		BAED77882DB3B9A700DE860B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAED77862DB3B9A700DE860B /* Main.storyboard */; };
+		BAED77912DB3B9A700DE860B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77902DB3B9A700DE860B /* AppDelegate.swift */; };
+		BAED77942DB3B9A700DE860B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAED77922DB3B9A700DE860B /* Main.storyboard */; };
+		BAED779C2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BAED779B2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BAED77A62DB3B9A800DE860B /* Chesscom Title Editor Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BAED77A52DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BAED77AC2DB3B9A800DE860B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BAED776F2DB3B9A700DE860B /* Main.html */; };
+		BAED77AD2DB3B9A800DE860B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BAED776F2DB3B9A700DE860B /* Main.html */; };
+		BAED77AE2DB3B9A800DE860B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAED77712DB3B9A700DE860B /* Icon.png */; };
+		BAED77AF2DB3B9A800DE860B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAED77712DB3B9A700DE860B /* Icon.png */; };
+		BAED77B02DB3B9A800DE860B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BAED77722DB3B9A700DE860B /* Style.css */; };
+		BAED77B12DB3B9A800DE860B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BAED77722DB3B9A700DE860B /* Style.css */; };
+		BAED77B22DB3B9A800DE860B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77732DB3B9A700DE860B /* Script.js */; };
+		BAED77B32DB3B9A800DE860B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77732DB3B9A700DE860B /* Script.js */; };
+		BAED77B42DB3B9A800DE860B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77742DB3B9A700DE860B /* ViewController.swift */; };
+		BAED77B52DB3B9A800DE860B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77742DB3B9A700DE860B /* ViewController.swift */; };
+		BAED77B62DB3B9A800DE860B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED77752DB3B9A700DE860B /* Assets.xcassets */; };
+		BAED77B72DB3B9A800DE860B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED77752DB3B9A700DE860B /* Assets.xcassets */; };
+		BAED77B82DB3B9A800DE860B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77772DB3B9A700DE860B /* SafariWebExtensionHandler.swift */; };
+		BAED77B92DB3B9A800DE860B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED77772DB3B9A700DE860B /* SafariWebExtensionHandler.swift */; };
+		BAED77D22DB3B9A800DE860B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CB2DB3B9A800DE860B /* LICENSE */; };
+		BAED77D32DB3B9A800DE860B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CC2DB3B9A800DE860B /* background.js */; };
+		BAED77D42DB3B9A800DE860B /* images in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CD2DB3B9A800DE860B /* images */; };
+		BAED77D52DB3B9A800DE860B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CE2DB3B9A800DE860B /* popup.html */; };
+		BAED77D62DB3B9A800DE860B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CF2DB3B9A800DE860B /* README.md */; };
+		BAED77D72DB3B9A800DE860B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BAED77D02DB3B9A800DE860B /* manifest.json */; };
+		BAED77D82DB3B9A800DE860B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77D12DB3B9A800DE860B /* content.js */; };
+		BAED77D92DB3B9A800DE860B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CB2DB3B9A800DE860B /* LICENSE */; };
+		BAED77DA2DB3B9A800DE860B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CC2DB3B9A800DE860B /* background.js */; };
+		BAED77DB2DB3B9A800DE860B /* images in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CD2DB3B9A800DE860B /* images */; };
+		BAED77DC2DB3B9A800DE860B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CE2DB3B9A800DE860B /* popup.html */; };
+		BAED77DD2DB3B9A800DE860B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BAED77CF2DB3B9A800DE860B /* README.md */; };
+		BAED77DE2DB3B9A800DE860B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BAED77D02DB3B9A800DE860B /* manifest.json */; };
+		BAED77DF2DB3B9A800DE860B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BAED77D12DB3B9A800DE860B /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAED779D2DB3B9A800DE860B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAED77692DB3B9A700DE860B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAED779A2DB3B9A800DE860B;
+			remoteInfo = "Chesscom Title Editor Extension (iOS)";
+		};
+		BAED77A72DB3B9A800DE860B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAED77692DB3B9A700DE860B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAED77A42DB3B9A800DE860B;
+			remoteInfo = "Chesscom Title Editor Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA484E0A2DB3C06A00301C94 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = PlugIns;
+			dstSubfolderSpec = 0;
+			files = (
+				BA484E0C2DB3C10C00301C94 /* Chesscom Title Editor Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77BF2DB3B9A800DE860B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BAED779C2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77C62DB3B9A800DE860B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BAED77A62DB3B9A800DE860B /* Chesscom Title Editor Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BAED77702DB3B9A700DE860B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		BAED77712DB3B9A700DE860B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BAED77722DB3B9A700DE860B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BAED77732DB3B9A700DE860B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BAED77742DB3B9A700DE860B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAED77752DB3B9A700DE860B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAED77772DB3B9A700DE860B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BAED777C2DB3B9A700DE860B /* Chesscom Title Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chesscom Title Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED777F2DB3B9A700DE860B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAED77812DB3B9A700DE860B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAED77842DB3B9A700DE860B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAED77872DB3B9A700DE860B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAED77892DB3B9A700DE860B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAED778E2DB3B9A700DE860B /* Chesscom Title Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chesscom Title Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED77902DB3B9A700DE860B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAED77932DB3B9A700DE860B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAED77952DB3B9A700DE860B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAED77962DB3B9A700DE860B /* Chesscom Title Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chesscom Title Editor.entitlements"; sourceTree = "<group>"; };
+		BAED779B2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Chesscom Title Editor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED77A02DB3B9A800DE860B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAED77A52DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Chesscom Title Editor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED77AA2DB3B9A800DE860B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAED77AB2DB3B9A800DE860B /* Chesscom Title Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Chesscom Title Editor.entitlements"; sourceTree = "<group>"; };
+		BAED77CB2DB3B9A800DE860B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../Documents/chess_titles/LICENSE; sourceTree = "<group>"; };
+		BAED77CC2DB3B9A800DE860B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../Documents/chess_titles/background.js; sourceTree = "<group>"; };
+		BAED77CD2DB3B9A800DE860B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../Documents/chess_titles/images; sourceTree = "<group>"; };
+		BAED77CE2DB3B9A800DE860B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../Documents/chess_titles/popup.html; sourceTree = "<group>"; };
+		BAED77CF2DB3B9A800DE860B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Documents/chess_titles/README.md; sourceTree = "<group>"; };
+		BAED77D02DB3B9A800DE860B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../Documents/chess_titles/manifest.json; sourceTree = "<group>"; };
+		BAED77D12DB3B9A800DE860B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../Documents/chess_titles/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAED77792DB3B9A700DE860B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED778B2DB3B9A700DE860B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77982DB3B9A800DE860B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77A22DB3B9A800DE860B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAED77682DB3B9A700DE860B = {
+			isa = PBXGroup;
+			children = (
+				BAED776D2DB3B9A700DE860B /* Shared (App) */,
+				BAED77762DB3B9A700DE860B /* Shared (Extension) */,
+				BAED777E2DB3B9A700DE860B /* iOS (App) */,
+				BAED778F2DB3B9A700DE860B /* macOS (App) */,
+				BAED779F2DB3B9A800DE860B /* iOS (Extension) */,
+				BAED77A92DB3B9A800DE860B /* macOS (Extension) */,
+				BAED777D2DB3B9A700DE860B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAED776D2DB3B9A700DE860B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77742DB3B9A700DE860B /* ViewController.swift */,
+				BAED77752DB3B9A700DE860B /* Assets.xcassets */,
+				BAED776E2DB3B9A700DE860B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		BAED776E2DB3B9A700DE860B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAED776F2DB3B9A700DE860B /* Main.html */,
+				BAED77712DB3B9A700DE860B /* Icon.png */,
+				BAED77722DB3B9A700DE860B /* Style.css */,
+				BAED77732DB3B9A700DE860B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAED77762DB3B9A700DE860B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77CA2DB3B9A800DE860B /* Resources */,
+				BAED77772DB3B9A700DE860B /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		BAED777D2DB3B9A700DE860B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAED777C2DB3B9A700DE860B /* Chesscom Title Editor.app */,
+				BAED778E2DB3B9A700DE860B /* Chesscom Title Editor.app */,
+				BAED779B2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */,
+				BAED77A52DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAED777E2DB3B9A700DE860B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED777F2DB3B9A700DE860B /* AppDelegate.swift */,
+				BAED77812DB3B9A700DE860B /* SceneDelegate.swift */,
+				BAED77832DB3B9A700DE860B /* LaunchScreen.storyboard */,
+				BAED77862DB3B9A700DE860B /* Main.storyboard */,
+				BAED77892DB3B9A700DE860B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		BAED778F2DB3B9A700DE860B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77902DB3B9A700DE860B /* AppDelegate.swift */,
+				BAED77922DB3B9A700DE860B /* Main.storyboard */,
+				BAED77952DB3B9A700DE860B /* Info.plist */,
+				BAED77962DB3B9A700DE860B /* Chesscom Title Editor.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		BAED779F2DB3B9A800DE860B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77A02DB3B9A800DE860B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BAED77A92DB3B9A800DE860B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77AA2DB3B9A800DE860B /* Info.plist */,
+				BAED77AB2DB3B9A800DE860B /* Chesscom Title Editor.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BAED77CA2DB3B9A800DE860B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAED77CB2DB3B9A800DE860B /* LICENSE */,
+				BAED77CC2DB3B9A800DE860B /* background.js */,
+				BAED77CD2DB3B9A800DE860B /* images */,
+				BAED77CE2DB3B9A800DE860B /* popup.html */,
+				BAED77CF2DB3B9A800DE860B /* README.md */,
+				BAED77D02DB3B9A800DE860B /* manifest.json */,
+				BAED77D12DB3B9A800DE860B /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAED777B2DB3B9A700DE860B /* Chesscom Title Editor (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAED77C02DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor (iOS)" */;
+			buildPhases = (
+				BAED77782DB3B9A700DE860B /* Sources */,
+				BAED77792DB3B9A700DE860B /* Frameworks */,
+				BAED777A2DB3B9A700DE860B /* Resources */,
+				BAED77BF2DB3B9A800DE860B /* Embed Foundation Extensions */,
+				BA484E0A2DB3C06A00301C94 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAED779E2DB3B9A800DE860B /* PBXTargetDependency */,
+			);
+			name = "Chesscom Title Editor (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Chesscom Title Editor (iOS)";
+			productReference = BAED777C2DB3B9A700DE860B /* Chesscom Title Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAED778D2DB3B9A700DE860B /* Chesscom Title Editor (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAED77C72DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor (macOS)" */;
+			buildPhases = (
+				BAED778A2DB3B9A700DE860B /* Sources */,
+				BAED778B2DB3B9A700DE860B /* Frameworks */,
+				BAED778C2DB3B9A700DE860B /* Resources */,
+				BAED77C62DB3B9A800DE860B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAED77A82DB3B9A800DE860B /* PBXTargetDependency */,
+			);
+			name = "Chesscom Title Editor (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Chesscom Title Editor (macOS)";
+			productReference = BAED778E2DB3B9A700DE860B /* Chesscom Title Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAED779A2DB3B9A800DE860B /* Chesscom Title Editor Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAED77BC2DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor Extension (iOS)" */;
+			buildPhases = (
+				BAED77972DB3B9A800DE860B /* Sources */,
+				BAED77982DB3B9A800DE860B /* Frameworks */,
+				BAED77992DB3B9A800DE860B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chesscom Title Editor Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Chesscom Title Editor Extension (iOS)";
+			productReference = BAED779B2DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BAED77A42DB3B9A800DE860B /* Chesscom Title Editor Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAED77C32DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor Extension (macOS)" */;
+			buildPhases = (
+				BAED77A12DB3B9A800DE860B /* Sources */,
+				BAED77A22DB3B9A800DE860B /* Frameworks */,
+				BAED77A32DB3B9A800DE860B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chesscom Title Editor Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Chesscom Title Editor Extension (macOS)";
+			productReference = BAED77A52DB3B9A800DE860B /* Chesscom Title Editor Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAED77692DB3B9A700DE860B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					BAED777B2DB3B9A700DE860B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BAED778D2DB3B9A700DE860B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BAED779A2DB3B9A800DE860B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BAED77A42DB3B9A800DE860B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = BAED776C2DB3B9A700DE860B /* Build configuration list for PBXProject "Chesscom Title Editor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAED77682DB3B9A700DE860B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BAED777D2DB3B9A700DE860B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAED777B2DB3B9A700DE860B /* Chesscom Title Editor (iOS) */,
+				BAED778D2DB3B9A700DE860B /* Chesscom Title Editor (macOS) */,
+				BAED779A2DB3B9A800DE860B /* Chesscom Title Editor Extension (iOS) */,
+				BAED77A42DB3B9A800DE860B /* Chesscom Title Editor Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAED777A2DB3B9A700DE860B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77AE2DB3B9A800DE860B /* Icon.png in Resources */,
+				BAED77852DB3B9A700DE860B /* LaunchScreen.storyboard in Resources */,
+				BAED77AC2DB3B9A800DE860B /* Main.html in Resources */,
+				BAED77B22DB3B9A800DE860B /* Script.js in Resources */,
+				BAED77B62DB3B9A800DE860B /* Assets.xcassets in Resources */,
+				BAED77882DB3B9A700DE860B /* Main.storyboard in Resources */,
+				BAED77B02DB3B9A800DE860B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED778C2DB3B9A700DE860B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77AF2DB3B9A800DE860B /* Icon.png in Resources */,
+				BAED77B12DB3B9A800DE860B /* Style.css in Resources */,
+				BAED77942DB3B9A700DE860B /* Main.storyboard in Resources */,
+				BAED77B32DB3B9A800DE860B /* Script.js in Resources */,
+				BAED77B72DB3B9A800DE860B /* Assets.xcassets in Resources */,
+				BAED77AD2DB3B9A800DE860B /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77992DB3B9A800DE860B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77DB2DB3B9A800DE860B /* images in Resources */,
+				BAED77DC2DB3B9A800DE860B /* popup.html in Resources */,
+				BAED77DD2DB3B9A800DE860B /* README.md in Resources */,
+				BAED77DA2DB3B9A800DE860B /* background.js in Resources */,
+				BAED77DE2DB3B9A800DE860B /* manifest.json in Resources */,
+				BAED77DF2DB3B9A800DE860B /* content.js in Resources */,
+				BAED77D92DB3B9A800DE860B /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77A32DB3B9A800DE860B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77D42DB3B9A800DE860B /* images in Resources */,
+				BAED77D52DB3B9A800DE860B /* popup.html in Resources */,
+				BAED77D62DB3B9A800DE860B /* README.md in Resources */,
+				BAED77D32DB3B9A800DE860B /* background.js in Resources */,
+				BAED77D72DB3B9A800DE860B /* manifest.json in Resources */,
+				BAED77D82DB3B9A800DE860B /* content.js in Resources */,
+				BAED77D22DB3B9A800DE860B /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAED77782DB3B9A700DE860B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77B42DB3B9A800DE860B /* ViewController.swift in Sources */,
+				BAED77802DB3B9A700DE860B /* AppDelegate.swift in Sources */,
+				BAED77822DB3B9A700DE860B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED778A2DB3B9A700DE860B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77B52DB3B9A800DE860B /* ViewController.swift in Sources */,
+				BAED77912DB3B9A700DE860B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77972DB3B9A800DE860B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77B82DB3B9A800DE860B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED77A12DB3B9A800DE860B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED77B92DB3B9A800DE860B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAED779E2DB3B9A800DE860B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAED779A2DB3B9A800DE860B /* Chesscom Title Editor Extension (iOS) */;
+			targetProxy = BAED779D2DB3B9A800DE860B /* PBXContainerItemProxy */;
+		};
+		BAED77A82DB3B9A800DE860B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAED77A42DB3B9A800DE860B /* Chesscom Title Editor Extension (macOS) */;
+			targetProxy = BAED77A72DB3B9A800DE860B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAED776F2DB3B9A700DE860B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED77702DB3B9A700DE860B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BAED77832DB3B9A700DE860B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED77842DB3B9A700DE860B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BAED77862DB3B9A700DE860B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED77872DB3B9A700DE860B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAED77922DB3B9A700DE860B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED77932DB3B9A700DE860B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAED77BA2DB3B9A800DE860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAED77BB2DB3B9A800DE860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BAED77BD2DB3B9A800DE860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor.Extension";
+				PRODUCT_NAME = "Chesscom Title Editor Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAED77BE2DB3B9A800DE860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor.Extension";
+				PRODUCT_NAME = "Chesscom Title Editor Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAED77C12DB3B9A800DE860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor";
+				PRODUCT_NAME = "Chesscom Title Editor";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAED77C22DB3B9A800DE860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor";
+				PRODUCT_NAME = "Chesscom Title Editor";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAED77C42DB3B9A800DE860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Chesscom Title Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor.Extension";
+				PRODUCT_NAME = "Chesscom Title Editor Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BAED77C52DB3B9A800DE860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Chesscom Title Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor.Extension";
+				PRODUCT_NAME = "Chesscom Title Editor Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BAED77C82DB3B9A800DE860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Chesscom Title Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor";
+				PRODUCT_NAME = "Chesscom Title Editor";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BAED77C92DB3B9A800DE860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Chesscom Title Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chesscom Title Editor";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Chesscom-Title-Editor";
+				PRODUCT_NAME = "Chesscom Title Editor";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAED776C2DB3B9A700DE860B /* Build configuration list for PBXProject "Chesscom Title Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED77BA2DB3B9A800DE860B /* Debug */,
+				BAED77BB2DB3B9A800DE860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED77BC2DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED77BD2DB3B9A800DE860B /* Debug */,
+				BAED77BE2DB3B9A800DE860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED77C02DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED77C12DB3B9A800DE860B /* Debug */,
+				BAED77C22DB3B9A800DE860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED77C32DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED77C42DB3B9A800DE860B /* Debug */,
+				BAED77C52DB3B9A800DE860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED77C72DB3B9A800DE860B /* Build configuration list for PBXNativeTarget "Chesscom Title Editor (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED77C82DB3B9A800DE860B /* Debug */,
+				BAED77C92DB3B9A800DE860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAED77692DB3B9A700DE860B /* Project object */;
+}
